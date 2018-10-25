@@ -82,7 +82,7 @@ public class MainActivity extends RuntimePermissionActivity {
     {
         Intent intent = new Intent(Intent.ACTION_INSERT);
         intent.setType(ContactsContract.Contacts.CONTENT_TYPE);
-        intent.putExtra(ContactsContract.Intents.Insert.NAME, c.getName()+" Csc And");
+        intent.putExtra(ContactsContract.Intents.Insert.NAME, c.getName());
         intent.putExtra(ContactsContract.Intents.Insert.PHONE,c.getNumber());
 
         startActivityForResult(intent, CONTACT_SAVE_REQUEST_CODE);
