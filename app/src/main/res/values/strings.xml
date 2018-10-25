@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ContactSaver</string>
+
+    <string name="btn_open_file">Open File</string>
+    <string name="btn_save_contacts">Save Contacts</string>
+
+    <string name="info_save_canceled">Save Canceled</string>
+    <string name="info_save_success">Save Successful</string>
+
+    <string name="err_permission">Please Allow Permission First</string>
+    <string name="err_file_reading">Something Went Wrong With Reading Contact File</string>
+    <string name="err_file_not_load">Please chose file first.</string>
+</resources>
